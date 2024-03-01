@@ -1,0 +1,57 @@
+*,*::after, *::before{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  text-align: center;
+  background-color: brown;
+  color: #fff;
+}
+.heading{
+  margin: 2rem 0;
+  font-size: 3rem;
+}
+.score{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: .8rem;
+}
+.choice{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.computer_hand{
+  height: 100px;
+  width: 100px;
+}
+.user_hand{
+  height: 100px;
+  width: 100px;
+  transform: rotateY(-180deg);
+}
+
+.button{
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  background-color: cadetblue;
+  color: #fff;
+  min-width: 75px;
+  margin: 5px;
+  cursor: pointer;
+}
+.button:disabled{
+  cursor: default;
+  background-color: rgb(185, 214, 223);
+}
+.result{
+  font-size: .5rem;
+}
+.result h1{
+ padding-top: 1rem;
+}
+
+
